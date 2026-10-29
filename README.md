@@ -2,6 +2,8 @@
 
 嵌入式软件 / 机器人控制。做四轮麦克纳姆轮搬运机器人的整机固件：硬实时控制、三环 PID、比赛路线状态机、视觉伺服对准。
 
+🏆 **2026 中国机器人大赛暨 RoboCup 中国赛 · 车型智能搬运** —— 国赛三等奖 · 专项赛三等奖
+
 ---
 
 ### 在做的事
@@ -30,6 +32,7 @@
 | 项目 | 说明 | 技术 |
 | --- | --- | --- |
 | [**robocup-smart-carry-firmware**](https://github.com/vega-thrive/robocup-smart-carry-firmware) | 车型智能搬运机器人整车固件：200 Hz 三环 PID 底盘、24 状态比赛路线机、视觉伺服对准、8 路舵机机构时序 | C · STM32F407 · Keil |
+| [**robocup-smart-carry-firmware-team2**](https://github.com/vega-thrive/robocup-smart-carry-firmware-team2) | 同赛项另一辆车，**从零实现**的独立固件：53 状态路线机、转盘库存管理、VOFA 在线调参、12 336 行 | C · STM32F407 · Keil |
 | [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端：七任务模式分发、霍夫圆对准、PP-OCR 冠亚季任意角度识别、10 字节串口帧协议 | Python · MaixPy · OpenCV |
 
 ### 联系
