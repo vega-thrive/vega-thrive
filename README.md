@@ -33,7 +33,7 @@
 | --- | --- | --- | --- |
 | 1 | [**robocup-smart-carry-firmware**](https://github.com/vega-thrive/robocup-smart-carry-firmware) | 一周接手 · 国赛三等奖 | 24 状态路线机、200 Hz 三环 PID、视觉伺服对准、8 路舵机时序 |
 | 2 | [**robocup-smart-carry-firmware-team2**](https://github.com/vega-thrive/robocup-smart-carry-firmware-team2) | 从零实现 · 专项赛三等奖 | 53 状态路线机、转盘库存管理、VOFA 在线调参、五周开发时间线 |
-| 3 | [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端 | 七任务分发、霍夫圆对准、低算力下的多角度 OCR（15°×24 旋转投票） |
+| 3 | [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端 | 七任务分发、霍夫圆对准、低算力下的任意角度字符识别 |
 
 ### 联系
 
