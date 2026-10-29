@@ -30,6 +30,7 @@
 | 项目 | 说明 | 技术 |
 | --- | --- | --- |
 | [**robocup-smart-carry-firmware**](https://github.com/vega-thrive/robocup-smart-carry-firmware) | 车型智能搬运机器人整车固件：200 Hz 三环 PID 底盘、24 状态比赛路线机、视觉伺服对准、8 路舵机机构时序 | C · STM32F407 · Keil |
+| [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端：七任务模式分发、霍夫圆对准、PP-OCR 冠亚季任意角度识别、10 字节串口帧协议 | Python · MaixPy · OpenCV |
 
 ### 联系
 
