@@ -8,10 +8,10 @@
 
 ### 在做的事
 
-- 🤖 **车型智能搬运机器人** —— 2026 中国机器人大赛暨 RoboCup 中国赛
-  整车固件（STM32F407 @168 MHz），200 Hz 硬实时底盘控制 + 24 状态比赛路线机
-- 👁 **视觉伺服** —— MaixCAM / MaixPy，YOLO 目标检测、椭圆拟合、10 字节串口帧协议
-- 🐍 **Python 工程化小工具** —— 文件整理 / 查重 / 实验数据作图
+- 🤖 **车型智能搬运机器人** —— 2026 中国机器人大赛 · 工程竞技类
+  两辆车的软件：一辆**从零实现**（53 状态路线机 / 1.2 万行业务代码），另一辆在队伍交接中断后**一周内接手调通**（国赛三等奖）
+- 👁 **嵌入式视觉** —— MaixCAM / MaixPy：霍夫圆对准、HSV 形状判别、低算力平台上的多角度字符识别
+- 🧠 **模型自训练** —— 手机实拍采集 + 人工标注（6 类 / 1 394 实例）+ YOLO11n 训练 + INT8 量化部署
 
 ### 技术栈
 
@@ -27,13 +27,13 @@
 ![LTspice](https://img.shields.io/badge/LTspice-Circuit%20Sim-orange?style=flat-square)
 ![SolidWorks](https://img.shields.io/badge/SolidWorks-3D%20Modeling-red?style=flat-square)
 
-### 项目
+### 精选项目
 
-| 项目 | 说明 | 技术 |
-| --- | --- | --- |
-| [**robocup-smart-carry-firmware**](https://github.com/vega-thrive/robocup-smart-carry-firmware) | 车型智能搬运机器人整车固件：200 Hz 三环 PID 底盘、24 状态比赛路线机、视觉伺服对准、8 路舵机机构时序 | C · STM32F407 · Keil |
-| [**robocup-smart-carry-firmware-team2**](https://github.com/vega-thrive/robocup-smart-carry-firmware-team2) | 同赛项另一辆车，**从零实现**的独立固件：53 状态路线机、转盘库存管理、VOFA 在线调参、12 336 行 | C · STM32F407 · Keil |
-| [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端：七任务模式分发、霍夫圆对准、PP-OCR 冠亚季任意角度识别、10 字节串口帧协议 | Python · MaixPy · OpenCV |
+| # | 项目 | 定位 | 关键内容 |
+| --- | --- | --- | --- |
+| 1 | [**robocup-smart-carry-firmware**](https://github.com/vega-thrive/robocup-smart-carry-firmware) | 一周接手 · 国赛三等奖 | 24 状态路线机、200 Hz 三环 PID、视觉伺服对准、8 路舵机时序 |
+| 2 | [**robocup-smart-carry-firmware-team2**](https://github.com/vega-thrive/robocup-smart-carry-firmware-team2) | 从零实现 · 专项赛三等奖 | 53 状态路线机、转盘库存管理、VOFA 在线调参、五周开发时间线 |
+| 3 | [**robocup-smart-carry-vision**](https://github.com/vega-thrive/robocup-smart-carry-vision) | MaixCAM 视觉端 | 七任务分发、霍夫圆对准、低算力下的多角度 OCR（15°×24 旋转投票） |
 
 ### 联系
 
